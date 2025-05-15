@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta+</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #000;
+        }
+        
+        header {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        header nav ul li {
+            margin-right: 20px;
+        }
+        
+        header nav a {
+            color: #000;
+            text-decoration: none;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1, h2 {
+            color: #000;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            color: #000;
+        }
+        
+        button {
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #ccc;
+        }
+        
+        footer {
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+        
+        .login {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .login input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            color: #000;
+        }
+        
+        .login button {
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .login button:hover {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#funcionalidades">Funcionalidades</a></li>
+                <li><a href="#publico-alvo">Público-Alvo</a></li>
+                <li><a href="#diferenciais">Diferenciais</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="login">
+            <h1>Login</h1>
+            <form>
+                <input type="text" placeholder="Usuário">
+                <input type="password" placeholder="Senha">
+                <button>Login</button>
+            </form>
+        </section>
+        <section id="sobre">
+            <h1>Conecta+</h1>
+            <p>Plataforma de conexão social e profissional</p>
+            <p>Objetivo: Criar uma plataforma que conecte pessoas em situação de vulnerabilidade social, jovens em início de carreira ou pessoas em transição de profissão com empresas interessadas em contratar, capacitar ou desenvolver projetos de impacto social.</p>
+        </section>
+        <section id="funcionalidades">
+            <h2>Funcionalidades Principais</h2>
+            <ul>
+                <li>Cadastro de Pessoas:
+                    <ul>
+                        <li>Perfil com habilidades, objetivos profissionais, disponibilidade</li>
+                        <li>Upload de currículos, vídeos de apresentação e portfólio</li>
+                        <li>Testes de habilidades (soft e hard skills)</li>
+                    </ul>
+                </li>
+                <li>Cadastro de Empresas:
+                    <
